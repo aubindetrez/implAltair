@@ -1,7 +1,10 @@
 # implAltair
 GNU Implementation of the Altair ISA
 
-AltairX ISA, emulator and overview: https://github.com/Kannagi/AltairX
+AltairX ISA, emulator and overview: <https://github.com/Kannagi/AltairX>
+
+A local (to this repository) copy of the ISA is kept as a backup:
+[AltairX_K1/](AltairX_K1/)
 
 ## Status
 This is a work in progress, no working prototype available yet.
