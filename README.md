@@ -23,3 +23,4 @@ Write-through VS write back cache. Directory protocol?
  - Add compression in cache
  - Profile Guided Optimization (PGO) embedded in the compiler (using the hardware simulation)
  - (smart) Scan chain support
+ - Check the verif/docker configuration isn't brocken (sv2v dependency)

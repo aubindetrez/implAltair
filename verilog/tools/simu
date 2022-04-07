@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Takes 1 argument: the file to simulate
+# Note: use -g2005 if you do not want to use sv2v
+rm -f /tmp/a.out /tmp/trace.vcd && iverilog -g2012 -Wall -DSIMULATION $1 -o /tmp/a.out && /tmp/a.out && if [ -r /tmp/trace.vcd ]; then gtkwave /tmp/trace.vcd; else echo "No VCD trace to display"; fi
