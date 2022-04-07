@@ -8,7 +8,6 @@ This is a work in progress, no working prototype available yet.
 Contributions are welcome.
 
 ## TODOs
- - Create a release/tag for the ISA
  - Instruction cache ('dummy' version)
  - Instruction cache 4-way set-associative 64KB
  - Floating point division - Shift-and-subtract division algorithm
@@ -24,3 +23,13 @@ Write-through VS write back cache. Directory protocol?
  - Profile Guided Optimization (PGO) embedded in the compiler (using the hardware simulation)
  - (smart) Scan chain support
  - Check the verif/docker configuration isn't brocken (sv2v dependency)
+
+## Budget
+
+Power: TODO
+
+
+Frequency: TODO
+
+
+Area: 30mm2 on 28nm FD-SOI
