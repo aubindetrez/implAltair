@@ -1,0 +1,17 @@
+import chisel3._
+import chiseltest._
+import org.scalatest.freespec.AnyFreeSpec
+import chisel3.experimental.BundleLiterals._
+
+class %%MODULE%%Spec extends AnyFreeSpec with ChiselScalatestTester {
+  "<TEST NAME>" in {
+    test(new %%MODULE%%()) { dut =>
+      //import scala.util.Random
+      //import scala.math.min
+      //import scala.math.max
+      //val rand = Random.nextInt(16)
+      //dut.io.in.poke(1.U)
+      //dut.io.out.expect(1.U)
+    }
+  }
+}
