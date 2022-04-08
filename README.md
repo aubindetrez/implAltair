@@ -10,6 +10,12 @@ A local (to this repository) copy of the ISA is kept as a backup:
 This is a work in progress, no working prototype available yet.
 Contributions are welcome.
 
+This repository contains a verilog and chisel implementation. The verilog
+design has the priority because it is better supported by open-source
+verification tools.
+ - SystemVerilog design: [verilog/](verilog/)
+ - Chisel design: [chisel/](chisel/)
+
 ## TODOs
  - Instruction cache ('dummy' version)
  - Instruction cache 4-way set-associative 64KB
