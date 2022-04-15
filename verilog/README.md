@@ -27,6 +27,8 @@ You need basic knowledge in:
  - General VLSI design (CMOS VLSI Design: A Circuits and Systems Perspective by Neil Weste, David Harris)
  - Understand how synthesis works and be aware of it when writing RTL
  - Basic understanding of Static Timing Analysis
+ - Timing closure basics (Efabless' guide:
+   <https://docs.google.com/document/d/13J1AY1zhzxur8vaFs3rRW9ZWX113rSDs63LezOOoXZ8/edit#heading=h.9y68197ebff7>)
  - Read open source code to get familiar with it (example: <https://github.com/lowRISC/ibex>)
  - What subset of SystemVerilog is **synthesizable**.
  - How do we initialize registers and bringup a chip in a known state
